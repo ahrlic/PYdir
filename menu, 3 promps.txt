@@ -1,0 +1,13 @@
+making a menu, three choice and promps
+
+choice = 0
+
+
+while choice != 3:
+    print("please make a selection: \n")
+    print("1. Say something nice to me!")
+    print("2. Say something funny to me!")
+    print ("3. Exit program")
+    print("\nPlease enter choice: ")
+    choice = int(input())
+    

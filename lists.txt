@@ -1,0 +1,29 @@
+#lists
+#classRoom = ["Jacob", "Nathan", "Matthew", "Ariana", "Mr.Wong"]
+
+#print(classRoom[3:4])
+
+#classRoom.append("Carter") #can add to variable, list or whatever
+
+#classRoom2 = ["Liam", "Day", "Rocco"]
+#classRoom.extend(classRoom2) #can connect two list thingies
+
+#print(classRoom)
+
+#classRoom = ["Jacob", "Nathan", "Matthew", "Ariana", "Mr.Wong"]
+#classRoom.insert(1, "Rocco")
+
+#classRoom.remove("Jacob")
+#print(classRoom)
+
+#classRoom = []
+#group1 = ["Jacob" , "Nathan"]
+#group2 = ["Ariana", "Rocco"]
+
+#classRoom.append(group1)
+#classRoom.append(group2)
+#print(classRoom[1][0])
+
+classRoom = ["Jacob" , "Nathan", "Ariana", "Rocco"]
+del classRoom[0]
+print(classRoom)

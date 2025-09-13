@@ -1,0 +1,22 @@
+choice = 0
+
+
+while choice != 3:
+    print("please make a selection: \n")
+    print("1. Say something nice to me!")
+    print("2. Say something funny to me!")
+    print ("3. Exit program")
+    print("\nPlease enter choice: ")
+    choice = int(input())
+    
+    if choice == 1:
+        print("Your car looks clean today.\n\n")
+        
+    elif choice == 2:
+        print("have you ever heard of the blurry monster?\n\n ")
+        
+    elif choice == 3: 
+        exit()
+        
+    else:
+        print("invalaid choice.\n")
