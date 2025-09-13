@@ -1,0 +1,20 @@
+# Guess Number Game
+# Author: Ariana Hrlic
+
+#variables
+rightAnswer = 16 
+userGuess = 0 
+counter = 3
+
+while counter > 0:
+    number = input("Welcome to the ICS20 first game,\n number game!\nPlease guess a number between 1-100:")
+
+    number = int(number)
+
+    if number == rightAnswer:
+        print("Correct!")
+    else:   
+        print("incorrect, try again")
+        
+    
+    counter = counter - 1
