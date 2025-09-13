@@ -1,16 +1,16 @@
 #lists
-#classRoom = ["Jacob", "Nathan", "Matthew", "Ariana", "Mr.Wong"]
+#classRoom = ["Jacob", "Nathan", "Matthew", "Ariana", "Professor"]
 
 #print(classRoom[3:4])
 
 #classRoom.append("Carter") #can add to variable, list or whatever
 
-#classRoom2 = ["Liam", "Day", "Rocco"]
+#classRoom2 = ["Liam", "Dae", "Rocco"]
 #classRoom.extend(classRoom2) #can connect two list thingies
 
 #print(classRoom)
 
-#classRoom = ["Jacob", "Nathan", "Matthew", "Ariana", "Mr.Wong"]
+#classRoom = ["Jacob", "Nathan", "Matthew", "Ariana", "Professor"]
 #classRoom.insert(1, "Rocco")
 
 #classRoom.remove("Jacob")
@@ -26,4 +26,5 @@
 
 classRoom = ["Jacob" , "Nathan", "Ariana", "Rocco"]
 del classRoom[0]
+
 print(classRoom)
