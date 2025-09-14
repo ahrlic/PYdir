@@ -2,25 +2,25 @@
 # is meant for comments
 #counter = 0
 
-#normal counter thingie
-#while (counter < 5):
-  #  print(counter)
-   # counter = counter + 3
+
+while (counter < 5):
+   print(counter)
+   counter = counter + 3
    
-#for myclicker in range(3):
+for myclicker in range(3):
     #print(myclicker)
 
 #prints the numbers excluding five, its kinda weird but oh well. (1,2,3,4)
-#for x in range(1,5):
-    #print(x)
+for x in range(1,5):
+    print(x)
     
-#can print in incremints like : 2,4,6
+can print in incremints like : 2,4,6
 #for x in range(3,10,2):
     #print(x)
 
 #backwards counter
-#for z in range(10,1,-1):
-    #print(z)
+for z in range(10,1,-1):
+    print(z)
     
 name = "Ariana"
 numLetters = len(name)
